@@ -1,0 +1,17 @@
+.App {
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  .searchBox {
+    border-bottom: 1px solid gray;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .gray {
+    color: #555;
+  } 
