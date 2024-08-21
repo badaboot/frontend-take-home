@@ -37,7 +37,7 @@ export default function App() {
                         const { name, description, version, date } = o.package;
                         return (
                             <div key={name} className="searchBox">
-                                <p className="bold">{name}</p>
+                                <a className="boldLink" href={o.package.links.npm}>{name}</a>
                                 <div className="flex">
                                     <div>
                                         <p className="gray">{description}</p>
