@@ -1,17 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 12px 0;
+}
+
 .App {
     font-family: sans-serif;
     height: 100vh;
-  }
-  .searchBox {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .App {
+        margin: 12px;
+    }
+}
+
+.searchBox {
     border-bottom: 1px solid gray;
-  }
-  .flex {
+    margin-bottom: 12px;
+}
+
+.flex {
     display: flex;
     justify-content: space-between;
-  }
-  .bold {
+}
+
+.boldLink {
     font-weight: bold;
-  }
-  .gray {
+    text-decoration: none;
+    color: #333;
+}
+
+.gray {
     color: #555;
-  } 
+}
+
+.pqmContainer {
+    width: 100px;
+}
+
+.pqmContainer div::before {
+    content: "🎮 ";
+}
